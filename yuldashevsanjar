@@ -39,9 +39,7 @@
 <button><a href="http://example.com" >For more info</a></button>
 
 </body>
-</html>
-<style>
-body{
+</html>body{
     background-color:rgb(252, 186, 6);
     color:black;
 }
@@ -81,4 +79,4 @@ button:hover{
     border-radius: 5px;
     
 }
-</style>
+
