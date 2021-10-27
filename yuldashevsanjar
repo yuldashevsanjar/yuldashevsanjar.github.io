@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My very First Webpage</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <h1>My full name: Yuldashev Sanjar</h1>
+    <p>I was born in <strong>Angren</strong> in <strong>2003</strong>. Now I am the first year student at <strong>Inha</strong></p>
+    <ul>
+        <li>Physics</li>
+        <li>Academic English Reading</li>
+        <li>Academic English</li>
+        <li>Calculus</li>
+        <li>Object Oriented Programming</li>
+        <li>Introduction to IT</li>
+    </ul>
+    <ol>
+        <li>Favorite book : The value of parents</li>
+        <li>Favorite film : Free stimulus</li>
+        <li>Favorite TV show : ETJ English
+            <li>To watch click <a class="anchor" href="https://www.etjenglish.com" target="_blank">here</a></li>
+        </li>
+    </ol>
+<span>
+    <p>Below. When I am sad</p>
+    <img  width="200px" height="230px" src="./images/sad.jpg" alt="A sad man">
+    <p>Below. When I am feeling happy</p>
+    <img width="200px" height="230px" src="./images/happy.jpg" alt="A happy man">
+</span>
+<h2>Noticeable facts about my neighbours</h2>
+<ul>
+    <li>Maria's favorite word  I will kill you all</li>
+    <li>Bob's reation when he fails an exam. What !!</li>
+</ul>
+<button><a href="http://example.com" >For more info</a></button>
 
+</body>
+</html>
+<style>
+body{
+    background-color:rgb(252, 186, 6);
+    color:black;
+}
+span{
+    display: inline;
+    font-size: 25px;
+    text-align:center;
+   
+}
+img{
+    display:flex;
+    margin:0 auto;
+}
+.anchor:hover{
+padding:4px;
+background-color:rgb(209, 145, 26);
+border-radius: 5px;
+color:black;
+}
+body h1, body h2{
+    color:blueviolet;
+}
+body li{
+    font-size:20px;
+}
+button{
+    text-align:center;
+    color:black;
+    text-decoration:none;
+    margin-left:620px;
+    margin-right:620px;
+}
+button:hover{
+    font-style: italic;
+    padding:16px;
+    background-color: coral;
+    border-radius: 5px;
+    
+}
+</style>
