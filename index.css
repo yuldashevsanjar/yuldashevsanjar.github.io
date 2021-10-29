@@ -1,0 +1,40 @@
+body{
+    background-color:rgb(252, 186, 6);
+    color:black;
+}
+span{
+    display: inline;
+    font-size: 25px;
+    text-align:center;
+   
+}
+img{
+    display:flex;
+    margin:0 auto;
+}
+.anchor:hover{
+padding:4px;
+background-color:rgb(209, 145, 26);
+border-radius: 5px;
+color:black;
+}
+body h1, body h2{
+    color:blueviolet;
+}
+body li{
+    font-size:20px;
+}
+button{
+    text-align:center;
+    color:black;
+    text-decoration:none;
+    margin-left:620px;
+    margin-right:620px;
+}
+button:hover{
+    font-style: italic;
+    padding:16px;
+    background-color: coral;
+    border-radius: 5px;
+    
+}
